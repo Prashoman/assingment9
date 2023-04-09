@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "img" : "https://static.vecteezy.com/system/resources/thumbnails/005/039/670/small/colorful-h-letter-logo-design-with-a-creative-cuts-and-gradient-blue-and-pink-rounded-background-vector.jpg",
+        "name":"Account & Finance",
+        "job":"150"
+        
+        
+    },
+    {
+        "id":2,
+        "img" : "https://img.favpng.com/12/3/1/logo-information-technology-business-png-favpng-kS1Qt21Qm5n4qG33hDPvgikd3.jpg",
+        "name":"IT Sector",
+        "job":"100"
+    },
+    {
+        "id":3,
+        "img" : "https://png.pngtree.com/templates/20181023/technology-logo-template-png_37586.jpg",
+        "name":"Technology Sector",
+        "job":"300"
+    },
+    {
+        "id":4,
+        "img" : "https://cdn.freebiesupply.com/logos/large/2x/google-1-1-logo-png-transparent.png",
+        "name":"Google Information",
+        "job":"90"
+    }
+]

@@ -10,6 +10,8 @@ import Errors from './components/Errors/Errors';
 import Headers from './components/Headers/Headers';
 import Commont from './components/commons/Commont';
 import MenuItems from './components/MenuItems/MenuItems';
+import Category from './components/Category/Category';
+import MenuCommonPage from './components/MenuCommontPage/MenuCommonPage';
 
 
 const router = createBrowserRouter([
@@ -20,8 +22,9 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <MenuItems></MenuItems>,
+        element: <MenuCommonPage></MenuCommonPage>,
       },
+      
     ],
 
   },
