@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const SingleFeature = ({feature}) => {
      const {img,id,jobtittle,name,option,address,salary} = feature;
-    console.log(feature)
+    //console.log(feature)
     return (
         <div className='w-full h-80 border p-3'>
             <img className='w-60 h-16' src={img} alt="" />
@@ -12,7 +12,7 @@ const SingleFeature = ({feature}) => {
             <p className='text-xl mt-2'>{name}</p>
             <div className='mt-3'>
             {
-                option.map(singData =><button className="btn btn-outline btn-success ml-2">{singData}</button>)
+                option.map((id,singData) =><button key={id} className="btn btn-outline btn-success ml-2">{singData}</button>)
             }
             </div>
             <div className='flex mt-3 justify-start items-center'>
