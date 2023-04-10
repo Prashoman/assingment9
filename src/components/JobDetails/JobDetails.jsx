@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import {MapPinIcon,CurrencyDollarIcon, CalendarIcon,PhoneIcon, InboxIcon } from '@heroicons/react/24/solid';
-import { setLocalStoreData } from '../../utilise/Utilise';
+
 
 
 const JobDetails = () => {
