@@ -4,6 +4,7 @@ import ApplyJobShow from '../ApplyJobShow/ApplyJobShow';
 const ApplidJob = () => {
     const [feature, setFeature ] = useState([]);
     const[updatefeuter, setUpdatefeature] = useState([]);
+    const[fixedData, setFixedData] = useState([])
     
     useEffect(()=>{
         fetch("featured.json")
@@ -23,24 +24,24 @@ const ApplidJob = () => {
             }
             
         }
-        
+        setFixedData(storeNewData)
         setUpdatefeature(storeNewData)
     },[feature])
     console.log(updatefeuter)
     //handle On Time section
     const handleOnTime = () =>{
-       const filterFulltime=  feature.filter(data =>  data.optiontwo === 'Ontime') 
+       const filterFulltime=  fixedData.filter(data =>  data.optiontwo === 'Ontime') 
        setUpdatefeature(filterFulltime)
     }
     //full-time handeler
     const handleFullTime = () =>{
-        const filterFulltime=  feature.filter(data =>  data.optionone === 'Fulltime')
+        const filterFulltime=  fixedData.filter(data =>  data.optionone === 'Fulltime')
         setUpdatefeature(filterFulltime)
     }
 
     //part-time handeller
     const handlePartTime = () =>{
-        const filterFulltime=  feature.filter(data =>  data.optiontwo === 'PartTime') 
+        const filterFulltime=  fixedData.filter(data =>  data.optiontwo === 'PartTime') 
        setUpdatefeature(filterFulltime)
     }
     return (
