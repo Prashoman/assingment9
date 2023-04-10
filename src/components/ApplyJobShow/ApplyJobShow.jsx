@@ -6,13 +6,13 @@ const ApplyJobShow = ({showapllayjob}) => {
     const {optionone,optiontwo,img,jobtittle,name,id,option,salary,address} = showapllayjob;
     return (
         <div>
-            <div className='w-full h-auto flex justify-between items-start md:h-auto mt-3  border p-3'>
+            <div className='w-full h-auto text-center md:flex justify-between items-start  mt-3  border p-3'>
                     <div>
-                        <img className='w-60 h-40' src={img} alt="" />
+                        <img className='w-48 h-32 text-center  md:w-60 md:h-40' src={img} alt="" />
                     </div>
                 <div>
-                    <h1 className='text-3xl font-semibold font-serif mt-2'>{jobtittle}</h1>
-                    <p className='text-xl mt-2'>{name}</p>
+                    <h1 className='md:text-3xl font-semibold font-serif mt-2'>{jobtittle}</h1>
+                    <p className='md:text-xl mt-2'>{name}</p>
                     <div className=''>
                         <button className="btn btn-outline btn-success ml-2">{optiontwo}</button>
                         <button className="btn btn-outline btn-success ml-2">{optionone}</button>
