@@ -15,6 +15,7 @@ import MenuCommonPage from './components/MenuCommontPage/MenuCommonPage';
 import JobDetails from './components/JobDetails/JobDetails';
 import Pichart from './components/PiChart/Pichart';
 import ApplidJob from './components/ApplidJob/ApplidJob';
+import Blogs from './components/Blogs/Blogs';
 
 
 
@@ -41,6 +42,11 @@ const router = createBrowserRouter([
       {
         path: "/Applied-Jobs",
         element: <ApplidJob></ApplidJob>,
+        
+      },
+      {
+        path: "/Blogs",
+        element: <Blogs></Blogs>,
         
       },
       
