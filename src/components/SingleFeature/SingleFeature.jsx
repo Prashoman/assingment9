@@ -22,7 +22,7 @@ const SingleFeature = ({feature}) => {
            <Link to={`details/${id}`}><button className='bg-blue-800 text-white rounded border px-3 py-2 mt-3'>View Details</button></Link> 
            
            
-            <h1></h1>
+            
         </div>
     );
 };
