@@ -3,7 +3,7 @@ import {MapPinIcon,CurrencyDollarIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 
 const ApplyJobShow = ({showapllayjob}) => {
-    const {img,jobtittle,name,id,option,salary,address} = showapllayjob;
+    const {optionone,optiontwo,img,jobtittle,name,id,option,salary,address} = showapllayjob;
     return (
         <div>
             <div className='w-full h-auto flex justify-between items-start md:h-auto mt-3  border p-3'>
@@ -14,9 +14,9 @@ const ApplyJobShow = ({showapllayjob}) => {
                 <h1 className='text-3xl font-semibold font-serif mt-2'>{jobtittle}</h1>
                 <p className='text-xl mt-2'>{name}</p>
                 <div className='mt-3'>
-                {
-                    option.map((singData,id) =><button key={id} className="btn btn-outline btn-success ml-2">{singData}</button>)
-                }
+                <button className="btn btn-outline btn-success ml-2">{optiontwo}</button>
+                <button className="btn btn-outline btn-success ml-2">{optionone}</button>
+                
                 </div>
                 <div className='flex mt-3 justify-start items-center'>
                     <p className='flex'><MapPinIcon className="h-6 w-9 text-black" />: {address}</p>
@@ -24,7 +24,7 @@ const ApplyJobShow = ({showapllayjob}) => {
                 </div>
             </div>
             
-           <Link to={`details/${id}`}><button className='bg-blue-800 text-white rounded border px-3 py-2 mt-3'>View Details</button></Link> 
+           <Link to={`/details/${id}`}><button className='bg-blue-800 text-white rounded border px-3 py-2 mt-3'>View Details</button></Link> 
            
         </div>
         </div>

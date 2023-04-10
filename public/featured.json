@@ -4,11 +4,12 @@
         "img" : "https://static.vecteezy.com/system/resources/thumbnails/005/039/670/small/colorful-h-letter-logo-design-with-a-creative-cuts-and-gradient-blue-and-pink-rounded-background-vector.jpg",
         "jobtittle":"Technical Database Engineer",
         "name" : "Google LLC",
-        "option" :["Fulltime", "Onsite", "Part-time"],
+        "optionone" :"Fulltime", 
+        "optiontwo" :"Ontime",
         "address" : "Dhaka Bangladesh",
         "salary" : "120k - 150k"
         
-        
+            
         
     },
     {
@@ -16,7 +17,8 @@
         "img" : "https://img.favpng.com/12/3/1/logo-information-technology-business-png-favpng-kS1Qt21Qm5n4qG33hDPvgikd3.jpg",
         "jobtittle":"Senior It Supporter",
         "name" : "It Support",
-        "option" :["Fulltime", "Onsite"],
+        "optionone" :"Fulltime", 
+        "optiontwo" :"PartTime",
         "address" : "Dhaka Bangladesh",
         "salary" : "80k - 100k"
     },
@@ -25,7 +27,8 @@
         "img" : "https://png.pngtree.com/templates/20181023/technology-logo-template-png_37586.jpg",
         "jobtittle":"Technical Supporter",
         "name" : "Technical LLC",
-        "option" :["Fulltime", "Onsite"],
+        "optionone" :"Fulltime", 
+        "optiontwo" :"Ontime",
         "address" : "Dhaka Bangladesh",
         "salary" : "20k - 30k"
     },
@@ -34,7 +37,8 @@
         "img" : "https://cdn.freebiesupply.com/logos/large/2x/google-1-1-logo-png-transparent.png",
         "jobtittle":"Technical Database Engineer",
         "name" : "Google Search Engineer",
-        "option" :["Fulltime", "Part-time"],
+        "optionone" :"PartTime", 
+        "optiontwo" :"Ontime",
         "address" : "Dhaka Bangladesh",
         "salary" : "15k - 20k"
     },
@@ -43,7 +47,8 @@
         "img" : "https://www.logo.wine/a/logo/Software_AG/Software_AG-Logo.wine.svg",
         "jobtittle":"Software Engineer",
         "name" : "Software develop",
-        "option" :["Fulltime", "Onsite", "Part-time"],
+        "optionone" :"Fulltime", 
+        "optiontwo" :"Ontime",
         "address" : "Dhaka Bangladesh",
         "salary" : "120k - 150k"
     },
@@ -52,7 +57,8 @@
         "img" : "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdjk4Mi0wMy5wbmc.png?s=thpJPC09dUBpoLW5nVQn50W7Z5oDLAUlKWb_htCemUY",
         "jobtittle":"Senior Apps Developer",
         "name" : "Software Apps develop",
-        "option" :["Fulltime", "Onsite", "Part-time"],
+        "optionone" :"Fulltime", 
+        "optiontwo" :"PartTime",
         "address" : "Dhaka Bangladesh",
         "salary" : "120k - 150k"
     }
