@@ -12,6 +12,7 @@ import Commont from './components/commons/Commont';
 import MenuItems from './components/MenuItems/MenuItems';
 import Category from './components/Category/Category';
 import MenuCommonPage from './components/MenuCommontPage/MenuCommonPage';
+import JobDetails from './components/JobDetails/JobDetails';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <MenuCommonPage></MenuCommonPage>,
+      },
+      {
+        path: "/details/:id",
+        element: <JobDetails></JobDetails>,
+        loader : () => fetch("jobdetails.json")
       },
       
     ],

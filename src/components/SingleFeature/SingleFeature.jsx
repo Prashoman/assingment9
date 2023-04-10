@@ -19,7 +19,7 @@ const SingleFeature = ({feature}) => {
                 <p className='flex'><MapPinIcon className="h-6 w-9 text-black" />: {address}</p>
                 <p className='flex'><CurrencyDollarIcon className="h-6 w-9 text-black" /> Salary : {salary}</p>
             </div>
-           <Link><button className='bg-blue-800 text-white rounded border px-3 py-2 mt-3'>View Details</button></Link> 
+           <Link to={`details/${id}`}><button className='bg-blue-800 text-white rounded border px-3 py-2 mt-3'>View Details</button></Link> 
            
            
             <h1></h1>

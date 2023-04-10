@@ -1,0 +1,78 @@
+[
+    {
+        "id":1,
+        "jobdescription" : "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsible" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-3 Years in this field",
+        "jobtittle":"Technical Database Engineer",
+        
+        "address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "email" : "info@gmail.com",
+        "phone" : "01750-00 00 00",
+        "salary" : "120k - 150k"
+        
+        
+        
+    },
+    {
+        "id":2,
+        "jobdescription" : "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsible" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-3 Years in this field",
+        "jobtittle":"Senior It Supporter",
+        "address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "email" : "info@gmail.com",
+        "phone" : "01750-00 00 00",
+        "salary" : "80k - 100k"
+    },
+    {
+        "id":3,
+        "jobdescription" : "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsible" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-3 Years in this field",
+        "jobtittle":"Technical Supporter",
+        "address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "email" : "info@gmail.com",
+        "phone" : "01750-00 00 00",
+        "salary" : "20k - 30k"
+    },
+    {
+        "id" :4,
+        "jobdescription" : "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsible" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-3 Years in this field",
+        "jobtittle":"Technical Database Engineer",
+        "address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "email" : "info@gmail.com",
+        "phone" : "01750-00 00 00",
+        "salary" : "15k - 20k"
+    },
+    {
+        "id":5,
+        "jobdescription" : "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsible" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-3 Years in this field",
+        "jobtittle":"Software Engineer",
+        "address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "email" : "info@gmail.com",
+        "phone" : "01750-00 00 00",
+        "salary" : "120k - 150k"
+    },
+    {
+        "id":6,
+        "jobdescription" : "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "jobresponsible" : " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education" : "Bachelor degree to complete any reputational university.",
+        "experiences" : "2-5 Years in this field",
+        "jobtittle":"Senior Apps Developer",
+        "address" : "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "email" : "info@gmail.com",
+        "phone" : "01750-00 00 00",
+        "salary" : "120k - 150k"
+    }
+]
