@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import {MapPinIcon,CurrencyDollarIcon, CalendarIcon,PhoneIcon, InboxIcon } from '@heroicons/react/24/solid';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -34,9 +36,14 @@ const JobDetails = () => {
     const quantity = shoppingCart[id];
     if (!quantity) {
         shoppingCart[id] = true;
+        toast.success('succussfully insert', {
+            position: toast.POSITION.TOP_RIGHT
+          });
     }
     else {
-        alert("already insert");
+        toast.warn('All ready Apply this job', {
+            position: toast.POSITION.TOP_RIGHT
+          });
     }
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
     }
@@ -71,6 +78,7 @@ const JobDetails = () => {
                     
                     <div className='w-full mt-8'>
                         <button onClick={() => handleSetJobId(details.id)} className=' w-full bg-blue-800 text-white rounded border px-3 py-2 md:px-4 md:py-3'>Apply Now</button>
+                        
                     </div>  
                 </div>
             </div>
